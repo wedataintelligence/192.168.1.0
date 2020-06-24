@@ -1,0 +1,6 @@
+gsm-tools - tools for work with your mobile GSM phone
+
+Main functions:
+    Sending/recieving SMS
+    Working with phone book
+    Make calls, answer and busy

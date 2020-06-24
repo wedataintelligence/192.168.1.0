@@ -1,0 +1,25 @@
+# Set phone model
+# Ex: if you have Erocsson t39, module for this phone
+# have name lib_t39.tcl, you must set MODEL t39, for
+# Simens ME45 (lib_simens.tcl) set simens, etc...
+set MODEL t39
+
+# Here set the communication port, for Ex: /dev/ttyS0
+# /dev/ircomm0. Under windows set comX:, for com1 set  com1:
+set PORT  /dev/ircomm0
+
+# Set port speed there, 57600, 115200 etc.
+set SPEED 115200
+
+# set default number for outgoing messages
+set DEF_NUMBER +37529123123
+
+# set default SMS type
+# 0 - 7 bits only english (160 chars)
+# 4 - 8 bits plain messages, don't recomended (140 chars)
+# 8 - 16 bits Unicode message, recomended for cyrillic (70 chars)
+set language 0
+
+# If use_gui set to TK, then programm start in interactive mode with
+# Graphics User Interface
+set ::use_gui TK
